@@ -31,7 +31,7 @@
             "codeClass": null,
             "userConfig": {
                 "layout|flex": 1,
-                "title": "My Grid Panel"
+                "title": ""
             },
             "name": "MyGridPanel",
             "designerId": "acf8fc16-4a9a-4197-851d-229c90ef6ef5",

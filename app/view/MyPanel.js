@@ -42,7 +42,7 @@ Ext.define('CarListings.view.MyPanel', {
         {
             xtype: 'gridpanel',
             flex: 1,
-            title: 'My Grid Panel',
+            title: '',
             columns: [
                 {
                     xtype: 'gridcolumn',
