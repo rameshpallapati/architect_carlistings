@@ -1,0 +1,15 @@
+{
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "basePath": "ext/",
+        "designer|userClassName": "Library",
+        "theme": "MyTritonTheme"
+    },
+    "name": "Library",
+    "designerId": "fc958fe7-7420-47df-a576-9032bae64851"
+}
