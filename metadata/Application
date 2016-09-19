@@ -6,6 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "models": [
+            "CarData"
+        ],
         "name": "CarListings",
         "views": [
             "CarListings"
