@@ -28,8 +28,8 @@ Ext.define('CarListings.view.CarListings', {
         type: 'carlistings'
     },
     frame: true,
-    height: 250,
-    width: 400,
+    height: 773,
+    width: 518,
     title: 'Car Listing',
 
     layout: {
