@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "CarListings"
+        "name": "CarListings",
+        "views": [
+            "MyPanel"
+        ]
     },
     "name": "Application",
     "designerId": "application"
