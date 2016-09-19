@@ -21,6 +21,12 @@ Ext.define('CarListings.view.CarListingsViewController', {
         var detailPanel = Ext.ComponentQuery.query('#detailPanel')[0];
 
         detailPanel.update(record.data);
+
+        var chart = Ext.ComponentQuery.query('#qualityChart')[0];
+        console.log(chart);
+
+        var qualityData = record.get('quality');
+        chart.store.loadData(qualityData);
     }
 
 });
