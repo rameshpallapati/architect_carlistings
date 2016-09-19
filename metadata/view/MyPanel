@@ -6,12 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "stretch",
         "designer|initialView": true,
         "designer|uiInterfaceName": "default-framed",
         "designer|userAlias": "mypanel",
         "designer|userClassName": "MyPanel",
         "frame": true,
         "height": 250,
+        "layout": "vbox",
         "title": "Car Listing",
         "width": 400
     },
