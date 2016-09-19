@@ -30,7 +30,8 @@ Ext.define('CarListings.store.CarDataStore', {
         type: 'ajax',
         url: 'data/cars.json',
         reader: {
-            type: 'json'
+            type: 'json',
+            rootProperty: 'data'
         }
     }
 
