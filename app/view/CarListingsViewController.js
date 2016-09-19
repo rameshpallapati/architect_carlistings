@@ -15,5 +15,12 @@
 
 Ext.define('CarListings.view.CarListingsViewController', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.carlistings'
+    alias: 'controller.carlistings',
+
+    onGridpanelSelect: function(rowmodel, record, index, eOpts) {
+        var detailPanel = Ext.ComponentQuery.query('#detailPanel')[0];
+
+        detailPanel.update(record.data);
+    }
+
 });
