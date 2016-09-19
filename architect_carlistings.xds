@@ -37,7 +37,9 @@
             "235d13ed-9b9e-49d5-9169-fca399d0c87f",
             "728513f9-5e3a-46ae-a1df-b7a3d81ab7c8"
         ],
-        "store": [],
+        "store": [
+            "603fbdac-fdb1-4146-ae4c-f00e7834b95f"
+        ],
         "controller": [],
         "model": [
             "3dec0719-c991-4494-b0bf-9ff28187de16"
