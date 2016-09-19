@@ -21,7 +21,8 @@ Ext.define('CarListings.view.CarListings', {
         'CarListings.view.CarListingsViewModel',
         'Ext.grid.Panel',
         'Ext.view.Table',
-        'Ext.grid.column.Column'
+        'Ext.grid.column.Column',
+        'Ext.XTemplate'
     ],
 
     viewModel: {
@@ -74,6 +75,17 @@ Ext.define('CarListings.view.CarListings', {
                     text: 'Quality'
                 }
             ]
+        },
+        {
+            xtype: 'panel',
+            flex: 1,
+            tpl: [
+                '`<img src="data/{img}" style="float: right" />',
+                'Manufacturer: {manufacturer} ',
+                'Model: <a href="{wiki}" target="_blank">{model}</a><br>',
+                'Price: {price:usMoney}`'
+            ],
+            title: 'My Panel'
         }
     ]
 

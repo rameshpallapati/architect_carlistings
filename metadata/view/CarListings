@@ -132,6 +132,41 @@
                     "designerId": "7556be02-7c54-4586-beb7-a81e921b8e32"
                 }
             ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "title": "My Panel"
+            },
+            "name": "MyPanel",
+            "designerId": "22d3710d-7a05-4fb5-92d0-a8e113ab5dd7",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "tpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "tpl",
+                        "implHandler": [
+                            "`<img src=\"data/{img}\" style=\"float: right\" />",
+                            "Manufacturer: {manufacturer} ",
+                            "Model: <a href=\"{wiki}\" target=\"_blank\">{model}</a><br>",
+                            "Price: {price:usMoney}`"
+                        ]
+                    },
+                    "name": "tpl",
+                    "designerId": "c6e2a49c-2e3e-4fd4-96f5-6b75c720a3ef"
+                }
+            ]
         }
     ]
 }
