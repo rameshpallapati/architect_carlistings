@@ -1,0 +1,41 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CarChart"
+    },
+    "name": "MyModel",
+    "designerId": "5d0d81eb-3587-4074-95b9-0abf623695da",
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name"
+            },
+            "name": "MyField6",
+            "designerId": "f37fa632-ef71-499c-bafa-85c202bd3d8f"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "rating"
+            },
+            "name": "MyField7",
+            "designerId": "a3e41c5b-090b-41e0-8de2-9ad70cf571a1"
+        }
+    ]
+}
