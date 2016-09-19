@@ -141,6 +141,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "itemId": "detailPanel",
                 "layout|flex": 1,
                 "title": "My Panel"
             },
