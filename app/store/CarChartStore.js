@@ -16,6 +16,12 @@
 Ext.define('CarListings.store.CarChartStore', {
     extend: 'Ext.data.Store',
 
-    storeId: 'CarChartStore'
+    requires: [
+        'CarListings.model.CarChart'
+    ],
+
+    storeId: 'CarChartStore',
+    autoLoad: true,
+    model: 'CarListings.model.CarChart'
 
 });

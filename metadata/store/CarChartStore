@@ -6,7 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "autoLoad": true,
         "designer|userClassName": "CarChartStore",
+        "model": "CarChart",
         "storeId": "CarChartStore"
     },
     "name": "MyStore",
