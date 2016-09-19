@@ -7,8 +7,10 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
+        "designer|uiInterfaceName": "default-framed",
         "designer|userAlias": "mypanel",
         "designer|userClassName": "MyPanel",
+        "frame": true,
         "height": 250,
         "title": "Car Listing",
         "width": 400
