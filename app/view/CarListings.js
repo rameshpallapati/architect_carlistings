@@ -86,7 +86,7 @@ Ext.define('CarListings.view.CarListings', {
                 'Model: <a href="{wiki}" target="_blank">{model}</a><br>',
                 'Price: {price:usMoney}`'
             ],
-            title: 'My Panel'
+            title: ''
         }
     ]
 

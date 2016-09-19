@@ -143,7 +143,7 @@
             "userConfig": {
                 "itemId": "detailPanel",
                 "layout|flex": 1,
-                "title": "My Panel"
+                "title": ""
             },
             "name": "MyPanel",
             "designerId": "22d3710d-7a05-4fb5-92d0-a8e113ab5dd7",
