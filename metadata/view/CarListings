@@ -163,6 +163,7 @@
             "userConfig": {
                 "itemId": "detailPanel",
                 "layout|flex": 1,
+                "layout|margins": "5 0 0 0",
                 "title": ""
             },
             "name": "MyPanel",

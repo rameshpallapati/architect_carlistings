@@ -84,6 +84,7 @@ Ext.define('CarListings.view.CarListings', {
         {
             xtype: 'panel',
             flex: 1,
+            margins: '5 0 0 0',
             itemId: 'detailPanel',
             tpl: [
                 '`<img src="data/{img}" style="float: right" />',
